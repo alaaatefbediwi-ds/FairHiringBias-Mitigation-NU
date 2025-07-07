@@ -114,6 +114,7 @@ rf_clf = RandomForestClassifier(
 | **Weighted Avg** | 0.89      | 0.89   | 0.88     |
 | **Accuracy**     | –         | –      | **0.8867** |
 
+
 ## Fairness Analysis
 
 To assess the fairness of the model, **Demographic Parity**, **Equal Opportunity**, and **Average Odds Difference** were evaluated with respect to the `Gender` attribute.
