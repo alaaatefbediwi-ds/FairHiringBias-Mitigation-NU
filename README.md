@@ -123,7 +123,7 @@ To assess the fairness of the model, **Demographic Parity**, **Equal Opportunity
 
 The plot shows the distribution of hiring predictions by `gender`:
 <div align="center">
-  <img src="plots/Gender_distribution.png" alt="SSVEP" width="2000"/>
+  <img src="plots/Gender_distribution.png" alt="Gender Distribution" width="2000"/>
 </div>
 
 | Gender     | Predicted Not Hired (0) | Predicted Hired (1) |
