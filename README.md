@@ -68,7 +68,7 @@ biased_train = pd.concat([
 biased_train = biased_train.sample(frac=1.0, random_state=42).reset_index(drop=True)
 ```
 
-### 1.Model Architecture
+### 1. Model Architecture
 
 #### 1.1 Initial Model (Logistic Regression)
 
@@ -120,9 +120,16 @@ rf_clf = RandomForestClassifier(
 
 ## Fairness Analysis
 
-The **AIC-3 Competition** focuses on the development of intelligent models for interpreting brain signals in the field of **non-invasive Brain-Computer Interfaces (BCIs)**. The challenge revolves around two widely studied BCI paradigms:
+To assess the fairness of the model, **Demographic Parity**, **Equal Opportunity**, and **Average Odds Difference** were evaluated with respect to the `Gender` attribute.
 
-- **Steady-State Visual Evoked Potentials (SSVEP):** These rely on the brain's oscillatory responses to visual stimuli flickering at predefined frequencies.
-- **Motor Imagery (MI):** This involves decoding neural patterns generated when a person imagines specific motor movements (hand or directional movement).
+### 1. Fairness Results:
+- **Demographic Parity:** `-0.0919`
+- **Equal Opportunity:** `-0.1802`
+- **Average Odds Difference:** `-0.0855`
+
+### 2. Conclusion
+- **Females were hired 9.2% more often than males overall.**
+- Qualified females (y_true=1) had **18%** higher recall than qualified males.
+- On average, **the model favors females by 8.6%.**
 
 
