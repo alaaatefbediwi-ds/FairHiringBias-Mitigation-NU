@@ -132,7 +132,7 @@ The plot shows the distribution of hiring predictions by `gender`:
 | Female (1) | 107                      | 49                   |
 
 
-### 2. Fairness Results:
+### 2. Metrics:
 - **Demographic Parity:** `-0.0919`
 - **Equal Opportunity:** `-0.1802`
 - **Average Odds Difference:** `-0.0855`
