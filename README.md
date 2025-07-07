@@ -6,7 +6,7 @@ This project aims to develop machine learning models that predict candidate hiri
 ## Table of Contents
 
 - [Dataset Overview](#dataset-overview)
-- [Data Preprocessing](#data_preprocessing)
+- [Data Preprocessing](#data-preprocessing)
 - [Model Architecture and Performance](#model-architecture--performance)
   - [Model Architecture](#1.model-architecture)
   - [Model Performance](#2.model-performance)
