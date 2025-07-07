@@ -48,7 +48,7 @@ joblib.dump(scaler, 'minmax_scaler.pkl')
 These preprocessing steps resulted in a fully numerical and normalized dataset, ready for training fairness-aware machine learning models.
 
 
-## Model Architecture and Performance
+## Model Architecture & Performance
 
 To begin modeling, the dataset was first split into features (X) and the target variable `HiringDecision`. 
 - **A stratified train-test split** was then applied to ensure that the distribution of the hiring decision labels was preserved across both training and testing sets.
