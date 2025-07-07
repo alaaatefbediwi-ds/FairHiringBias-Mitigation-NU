@@ -5,6 +5,7 @@ It aims to develop machine learning models that predict candidate hiring decisio
 
 ## Table of Contents
 
+- [Installation](#installation)
 - [Dataset Overview](#dataset-overview)
 - [Data Preprocessing](#data-preprocessing)
 - [Model Architecture & Performance](#model-architecture--performance)
@@ -17,6 +18,13 @@ It aims to develop machine learning models that predict candidate hiring decisio
 - [Bias Mitigation Techniques](#bias-mitigation-techniques)
   - [Reweighing](#1-reweighing)
   - [Feature Debiasing](#2-feature-debiasing)
+
+## Installation
+
+To install all the required dependencies, run:
+```
+pip install -r requirements.txt
+```
 
 ## Dataset Overview
 
