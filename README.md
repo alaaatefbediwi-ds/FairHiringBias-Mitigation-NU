@@ -1,7 +1,7 @@
 # FairHiringBias-Mitigation-NU
 This project investigates bias in machine learning hiring decisions and applies fairness-aware techniques to ensure equitable treatment across gender groups. Developed for the Nile University AI Fairness Challenge, the project explores how model performance and fairness can coexist in real-world decision systems.
 
-This project aims to develop machine learning models that predict candidate hiring decisions based on multiple attributes while ensuring fairness across genders. 
+It aims to develop machine learning models that predict candidate hiring decisions based on multiple attributes while ensuring fairness across genders. 
 
 ## Table of Contents
 
