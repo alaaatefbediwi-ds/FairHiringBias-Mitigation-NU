@@ -231,6 +231,17 @@ To improve fairness, Feature Debiasing approach was adopted manually by removing
 | Equal Opportunity (FD)        | -0.2052     |
 | Average Odds Difference (FD)  | -0.0884     |
 
+
+#### Bias Mitigation Comparison
+
+| **Metric**                    | **Before Mitigation** | **After Reweighing** | **After Feature Debiasing** |
+|------------------------------|------------------------|-----------------------|------------------------------|
+| **Test Accuracy**            | 0.8867                 | 0.8833                | 0.8767                       |
+| **Demographic Parity**       | -0.0919                | -0.0983               | -0.0849                      |
+| **Equal Opportunity**        | -0.1802                | -0.1802               | -0.2052                      |
+| **Average Odds Difference**  | -0.0855                | -0.0904               | -0.0884                      |
+
+
 #### Final Conclusion
 
 - Equal Opportunity worsened after feature debiasing.
