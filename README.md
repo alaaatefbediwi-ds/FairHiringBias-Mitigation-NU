@@ -127,7 +127,19 @@ To assess the fairness of the model, **Demographic Parity**, **Equal Opportunity
 - **Equal Opportunity:** `-0.1802`
 - **Average Odds Difference:** `-0.0855`
 
-### 2. Conclusion
+### 2. Plots
+
+The plot shows the distribution of hiring predictions by `gender`:
+<div align="center">
+  <img src="plots/Gender_distribution.png" alt="SSVEP" width="2000"/>
+</div>
+
+| Gender     | Predicted Not Hired (0) | Predicted Hired (1) |
+|------------|--------------------------|----------------------|
+| Male (0)   | 112                      | 32                   |
+| Female (1) | 107                      | 49                   |
+
+### 3. Conclusion
 - **Females were hired 9.2% more often than males overall.**
 - Qualified females (y_true=1) had **18%** higher recall than qualified males.
 - On average, **the model favors females by 8.6%.**
